@@ -1,0 +1,45 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Cards" subtitle="White, warm, and interactive recipe-card surfaces" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../styles.css" />
+<style>
+  body { margin: 0; padding: 28px; background: var(--bg-warm); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; align-items: start; }
+  h4 { font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--text-strong); margin: 0 0 6px; }
+  p { font-family: var(--font-body); font-size: 14px; color: var(--text-muted); margin: 0; line-height: 1.5; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Card, Badge, Button } = window.HeySaladDesignSystem_7c87a6;
+    function Demo() {
+      return (
+        <div className="grid">
+          <Card>
+            <Badge tone="solid" style={{ marginBottom: 10 }}>15 min</Badge>
+            <h4>Tomato basil orzo</h4>
+            <p>A one-pan weeknight win using what's already in your fridge.</p>
+          </Card>
+          <Card warm>
+            <h4>Why HeySalad?</h4>
+            <p>Snap your fridge, get recipes you'll actually cook — zero waste.</p>
+          </Card>
+          <Card interactive>
+            <h4>Tap to open</h4>
+            <p style={{ marginBottom: 14 }}>Interactive cards lift gently on hover.</p>
+            <Button variant="soft" size="sm">View recipe</Button>
+          </Card>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

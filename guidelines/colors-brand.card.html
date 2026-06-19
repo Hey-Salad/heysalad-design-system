@@ -1,0 +1,24 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Brand Palette" subtitle="Cherry Red hero + warm peach supporting tones" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 24px; background: var(--bg-base); }
+  .row { display: flex; gap: 16px; }
+  .sw { flex: 1; }
+  .chip { height: 84px; border-radius: var(--radius-md); border: 1px solid var(--line-200); }
+  .name { font-family: var(--font-body); font-weight: 600; font-size: 14px; color: var(--text-strong); margin: 10px 0 2px; }
+  .hex { font-family: var(--font-body); font-size: 13px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="sw"><div class="chip" style="background:var(--cherry-red)"></div><div class="name">Cherry Red</div><div class="hex">#ED4C4C</div></div>
+    <div class="sw"><div class="chip" style="background:var(--peach)"></div><div class="name">Peach</div><div class="hex">#FAA09A</div></div>
+    <div class="sw"><div class="chip" style="background:var(--light-peach)"></div><div class="name">Light Peach</div><div class="hex">#FFD0CD</div></div>
+    <div class="sw"><div class="chip" style="background:var(--white)"></div><div class="name">White</div><div class="hex">#FFFFFF</div></div>
+  </div>
+</body>
+</html>

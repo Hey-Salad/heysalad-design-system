@@ -1,0 +1,59 @@
+<!-- @dsCard group="Components" viewport="700x300" name="Buttons, Badges, Tags & Avatars" subtitle="Core brand primitives and their states" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../../styles.css" />
+<style>
+  body { margin: 0; padding: 28px; background: var(--bg-base); }
+  .group { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-bottom: 20px; }
+  .label { width: 100%; font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 2px; }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    const { Button, Badge, Tag, Avatar } = window.HeySaladDesignSystem_7c87a6;
+    function Demo() {
+      const [sel, setSel] = React.useState("Vegetarian");
+      return (
+        <div>
+          <div className="group">
+            <span className="label">Buttons</span>
+            <Button variant="primary">Start cooking</Button>
+            <Button variant="secondary">Browse recipes</Button>
+            <Button variant="soft">Save</Button>
+            <Button variant="ghost">Cancel</Button>
+            <Button variant="primary" disabled>Disabled</Button>
+            <Button variant="primary" size="sm">Small</Button>
+          </div>
+          <div className="group">
+            <span className="label">Badges</span>
+            <Badge tone="brand">New</Badge>
+            <Badge tone="solid">15 min</Badge>
+            <Badge tone="success">In season</Badge>
+            <Badge tone="warning">Low stock</Badge>
+            <Badge tone="error">Out</Badge>
+            <Badge tone="neutral">Vegan</Badge>
+          </div>
+          <div className="group">
+            <span className="label">Tags &amp; Avatars</span>
+            {["Vegetarian", "Under 30 min", "Spicy"].map((t) => (
+              <Tag key={t} selected={sel === t} onClick={() => setSel(t)}>{t}</Tag>
+            ))}
+            <span style={{ display: "inline-flex", gap: 8, marginLeft: 8 }}>
+              <Avatar name="Mei Tan" />
+              <Avatar name="Sal" />
+            </span>
+          </div>
+        </div>
+      );
+    }
+    ReactDOM.createRoot(document.getElementById("root")).render(<Demo />);
+  </script>
+</body>
+</html>

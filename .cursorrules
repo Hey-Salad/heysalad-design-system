@@ -1,0 +1,36 @@
+# HeySalad Design System — Cursor rules
+# Auto-loaded by Cursor. Read DESIGN.md (and SKILL.md) for the full guide.
+
+You are designing for HeySalad — a global food company. "Love your food."
+Always follow this brand system. The single source of truth is DESIGN.md.
+
+## Colors (CSS custom properties live in styles.css / tokens/colors.css)
+- Cherry Red #ed4c4c — hero color: logo, primary CTAs, key accents, Sal. An ACCENT, never a large flat background.
+- Peach #faa09a, Light Peach #ffd0cd — warm supporting tones (soft cards, hover, warm sections).
+- White + Cream #fff8f6 — base backgrounds; white carries negative space.
+- Warm-leaning neutrals (--ink-900..300, --line-200/100) for text & hairlines.
+- No blues/greens/purples as brand color — only as semantic success/warning/error.
+- A11y: never set body text <18px in Cherry on white (3.66:1). Cherry is for headlines, buttons, large text.
+
+## Type
+- Grandstander — rounded display/headlines, wordmark, short & large text only (Bold, tracking -0.02em).
+- Figtree — body, UI labels, captions; anything <16px or sentence-length.
+- Both are on Google Fonts; @font-face also ships in tokens/fonts.css.
+
+## Geometry & feel
+- Soft, friendly: pill buttons/chips (999px), 16px cards, 12px inputs.
+- Soft warm-tinted shadows; a "cherry glow" under primary CTAs (--shadow-brand).
+- Motion 120-320ms, ease-out; playful bounce on toggles. No harsh/infinite loops.
+- Hover = darker cherry / light-peach wash. Press = scale(0.97). Focus = cherry border + soft halo.
+
+## Voice
+- Direct, warm, a little playful. No corporate speak. Sentence case. Second person ("you").
+- Concrete food language ("tomato basil orzo"), short sentences.
+- Emoji (🍅) only in marketing/community copy — never in product UI chrome.
+
+## Using the code
+- Import styles.css once (it @imports all tokens + fonts). Components reference CSS vars — ship styles.css with them.
+- React components: components/core, components/forms, components/surfaces (Button, Badge, Tag, Avatar, Input, Switch, Checkbox, Card).
+- Brand assets: assets/logos (HeySalad lockups + Sal mascot), assets/icons (recipe SVGs), assets/fonts, assets/images.
+- Sal the mascot: never recolor, rotate, stretch, or add effects.
+- ui_kits/sally is a full recipe-app reference (welcome → discover → recipe → list → profile).

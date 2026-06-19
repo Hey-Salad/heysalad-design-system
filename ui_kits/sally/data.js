@@ -1,0 +1,77 @@
+// Sally — recipe data for the UI kit. Photos reuse HeySalad brand imagery.
+window.SALLY_RECIPES = [
+  {
+    id: "orzo",
+    title: "Tomato Basil Orzo",
+    photo: "../../assets/images/BrandImage2.jpg",
+    minutes: 15,
+    level: "Easy",
+    kcal: 420,
+    tags: ["Vegetarian", "One-pan"],
+    blurb: "A one-pan weeknight win using what's already in your fridge.",
+    ingredients: [
+      "200g orzo pasta",
+      "6 cherry tomatoes, halved",
+      "1 ball fresh mozzarella",
+      "Handful of basil",
+      "2 tbsp olive oil",
+      "Pinch of sea salt",
+    ],
+    steps: [
+      "Boil the orzo until just tender, then drain.",
+      "Blister the tomatoes in olive oil over high heat.",
+      "Fold in orzo, torn mozzarella and basil.",
+      "Finish with sea salt and a drizzle of oil.",
+    ],
+  },
+  {
+    id: "pancakes",
+    title: "Berry Breakfast Stack",
+    photo: "../../assets/images/BrandImage1.jpg",
+    minutes: 20,
+    level: "Easy",
+    kcal: 380,
+    tags: ["Breakfast", "Vegetarian"],
+    blurb: "Fluffy pancakes topped with fresh berries — a weekend treat.",
+    ingredients: [
+      "150g plain flour",
+      "1 egg",
+      "200ml milk",
+      "1 tsp baking powder",
+      "Mixed berries to top",
+      "Maple syrup",
+    ],
+    steps: [
+      "Whisk flour, egg, milk and baking powder to a smooth batter.",
+      "Cook spoonfuls in a hot pan until bubbles form, then flip.",
+      "Stack high and pile on the berries.",
+      "Finish with a good pour of maple syrup.",
+    ],
+  },
+  {
+    id: "caprese",
+    title: "Penne Caprese",
+    photo: "../../assets/images/BrandImage2.jpg",
+    minutes: 25,
+    level: "Easy",
+    kcal: 460,
+    tags: ["Vegetarian"],
+    blurb: "Classic tomato, mozzarella and basil — tossed through penne.",
+    ingredients: [
+      "300g penne",
+      "Cherry tomatoes on the vine",
+      "Mini mozzarella balls",
+      "Black olives",
+      "Fresh basil",
+      "Olive oil",
+    ],
+    steps: [
+      "Cook the penne to al dente.",
+      "Halve tomatoes and mozzarella; pit the olives.",
+      "Toss everything with olive oil and basil.",
+      "Season and serve warm or at room temperature.",
+    ],
+  },
+];
+
+window.SALLY_FILTERS = ["All", "Vegetarian", "Under 30 min", "Breakfast", "One-pan"];

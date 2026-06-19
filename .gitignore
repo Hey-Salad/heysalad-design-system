@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+.DS_Store
+.thumbnail
+
+*.log
+
+.env
+.env.*
+*.pem
+*.key
+*-service-account.json

@@ -1,0 +1,28 @@
+<!-- @dsCard group="Brand" viewport="700x300" name="Logo & Wordmark" subtitle="Wordmark and wordmark + tagline; black for light, white for dark" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; background: var(--bg-base); font-family: var(--font-body); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; }
+  .cell { padding: 28px 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; min-height: 120px; }
+  .light { background: var(--cream); }
+  .dark { background: var(--ink-900); }
+  .tag { font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+  .tag.on-light { color: var(--text-muted); }
+  .tag.on-dark { color: rgba(255,255,255,0.55); }
+  img.mark { height: 40px; }
+  img.lockup { height: 64px; }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="cell light"><span class="tag on-light">Wordmark</span><img class="mark" src="../assets/logos/HeySalad-Logo-Black.svg" alt="HeySalad wordmark black" /></div>
+    <div class="cell light"><span class="tag on-light">Wordmark + tagline</span><img class="lockup" src="../assets/logos/HeySalad-Logo-Tagline-Black.svg" alt="HeySalad logo with tagline black" /></div>
+    <div class="cell dark"><span class="tag on-dark">Wordmark</span><img class="mark" src="../assets/logos/HeySalad-Logo-White.svg" alt="HeySalad wordmark white" /></div>
+    <div class="cell dark"><span class="tag on-dark">Wordmark + tagline</span><img class="lockup" src="../assets/logos/HeySalad-Logo-Tagline-White.svg" alt="HeySalad logo with tagline white" /></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!-- @dsCard group="Type" viewport="700x260" name="Type Scale" subtitle="Display → caption, with font + weight per step" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; padding: 24px 28px; background: var(--bg-base); font-family: var(--font-body); }
+  .line { display: flex; align-items: baseline; gap: 16px; padding: 5px 0; border-bottom: 1px solid var(--line-100); }
+  .spec { width: 150px; flex: none; font-size: 12px; color: var(--text-muted); }
+  .grand { font-family: var(--font-display); color: var(--text-strong); }
+  .fig { font-family: var(--font-body); color: var(--text-body); }
+</style>
+</head>
+<body>
+  <div class="line"><span class="spec">Display · 56 Bold</span><span class="grand" style="font-size:34px;font-weight:700">Tomato</span></div>
+  <div class="line"><span class="spec">H1 · 36 Bold</span><span class="grand" style="font-size:28px;font-weight:700">Tomato</span></div>
+  <div class="line"><span class="spec">H2 · 26 Bold</span><span class="grand" style="font-size:22px;font-weight:700">Tomato</span></div>
+  <div class="line"><span class="spec">H3 · 20 SemiBold</span><span class="fig" style="font-size:20px;font-weight:600">Tomato basil salad</span></div>
+  <div class="line"><span class="spec">Body · 16 Regular</span><span class="fig" style="font-size:16px">Tomato basil salad</span></div>
+  <div class="line"><span class="spec">Caption · 13 Medium</span><span class="fig" style="font-size:13px;font-weight:500;color:var(--text-muted)">Tomato basil salad</span></div>
+</body>
+</html>
