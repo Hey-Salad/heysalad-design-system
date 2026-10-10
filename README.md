@@ -12,6 +12,9 @@
 | `tokens/` | CSS custom properties: `colors.css`, `typography.css`, `spacing.css` (radius/shadow/motion), `fonts.css` (@font-face), `base.css`. |
 | `components/` | React primitives — `core/` (Button, Badge, Tag, Avatar), `forms/` (Input, Switch, Checkbox), `surfaces/` (Card). |
 | `ui_kits/sally/` | Full click-through recipe-app reference (welcome → discover → recipe detail → shopping list → profile). |
+| `ui_kits/web/` | Web kit for the heysalad.ai marketing site, join form, and AI dashboard. |
+| `ui_kits/mobile/` | Mobile kit for the Sally by HeySalad app: home, list, recipes, card, profile. |
+| `ui_kits/index.html` | Browsable catalog for the web and mobile kits. |
 | `guidelines/` | Brand specimen cards (colors, type, spacing, logo, mascot, icons). |
 | `assets/` | `logos/` (HeySalad lockups + Sal mascot), `icons/` (recipe SVGs), `fonts/` (Grandstander + Figtree TTFs), `images/` (brand photography). |
 | `DESIGN.md` | The full design guide — colors, type, voice, visual foundations, iconography. |
@@ -29,6 +32,17 @@ import { Button } from "./components/core/Button.jsx";
 
 <Button variant="primary" size="lg">Start cooking</Button>
 ```
+
+## UI kit preview
+
+```bash
+npm install
+npm run typecheck
+npm run build
+npm run preview
+```
+
+Open the catalog at `ui_kits/index.html` (Vite serves it during `npm run dev` and `npm run preview`). The build writes a static site to `dist/`.
 
 ## Brand in one breath
 
