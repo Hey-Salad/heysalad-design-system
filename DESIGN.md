@@ -86,7 +86,11 @@ Examples: *"Love your food."* · *"Let's make every meal count!"* · *"Snap your
 - `forms/` — `Input`, `Switch`, `Checkbox`
 - `surfaces/` — `Card`
 
-**UI kits** (`ui_kits/`) — *in progress.* Planned: **Sally** recipe-discovery app (onboarding, swipe-to-discover feed, recipe detail, shopping list).
+**UI kits** (`ui_kits/`)
+- `sally/` — recipe-discovery reference (onboarding, swipe feed, recipe detail, shopping list, profile).
+- `web/` — heysalad.ai marketing site, membership join form, and AI dashboard, on these tokens.
+- `mobile/` — Sally by HeySalad phone kit (home, shopping list, recipes, loyalty card, profile).
+- `index.html` — catalog that links the web and mobile kits.
 
 ---
 
