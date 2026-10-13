@@ -15,7 +15,7 @@ function ShoppingListScreen({ items, onToggle, onClear }) {
       <div style={{ flex: 1, overflowY: "auto", padding: "6px 20px 16px" }}>
         {items.length === 0 ? (
           <div style={{ height: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", padding: "0 24px" }}>
-            <img src="../../assets/logos/Sal.png" alt="Sal" style={{ width: 88, height: 88, opacity: 0.9, marginBottom: 16 }} />
+            <img src="../../assets/logos/Sal.png" alt="Sally" style={{ width: 88, height: 88, opacity: 0.9, marginBottom: 16 }} />
             <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 20, color: "var(--text-strong)", margin: "0 0 6px" }}>Nothing here yet</h3>
             <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--text-muted)", margin: 0, maxWidth: 220 }}>Like a recipe and add its ingredients — they'll land right here.</p>
           </div>

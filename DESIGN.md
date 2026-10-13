@@ -2,7 +2,7 @@
 
 **HeySalad — love your food.**
 
-HeySalad is a global food company building tools that help people discover, cook, and share food they love — spanning AI-powered recipe shopping, creator commerce, payment hardware, and kitchen tech, all under one friendly mascot, **Sal** (a tomato-heart character). This project is the single source of truth for HeySalad's visual identity: tokens, fonts, brand assets, reusable components, and product UI kits.
+HeySalad is a global food company building tools that help people discover, cook, and share food they love — spanning AI-powered recipe shopping, creator commerce, payment hardware, and kitchen tech, all under one friendly mascot, **Sally** (a tomato-heart character). This project is the single source of truth for HeySalad's visual identity: tokens, fonts, brand assets, reusable components, and product UI kits.
 
 > Mission, in the company's words: empower every household to reduce food waste, embrace healthier eating, and save time with AI-driven meal solutions. Most products are open source.
 
@@ -13,7 +13,7 @@ HeySalad is a global food company building tools that help people discover, cook
 - **HeySalad TX** — payment hardware / kitchen tech.
 
 ## Sources used
-- **GitHub — brand assets:** [Hey-Salad/.github](https://github.com/Hey-Salad/.github) (logos, Sal mascot, launcher icon). Explore further to build accurate product designs.
+- **GitHub — brand assets:** [Hey-Salad/.github](https://github.com/Hey-Salad/.github) (logos, Sally mascot, launcher icon). Explore further to build accurate product designs.
 - **GitHub org:** [github.com/Hey-Salad](https://github.com/Hey-Salad) — 286 public repos; most products are open source.
 - **Local "Brand Guidelines/"** folder (read-only mount): Grandstander + Figtree font families, brand photography, the brand icon set, and `HeySalad_BrandGuidelines_v.1.1.pdf`.
 - Website: [heysalad.io](https://heysalad.io) · Contact: investors@heysalad.io
@@ -30,7 +30,7 @@ HeySalad is a global food company building tools that help people discover, cook
 - **Casing:** Sentence case for everything — headlines, buttons, labels. The wordmark "HeySalad" is one word, capital H and S. Tagline "love your food" is lowercase.
 - **Length:** Short. Headlines are a few words ("Love your food", "Snap your fridge, get dinner"). Body stays concise and concrete.
 - **Concrete over abstract:** Name the food. "Tomato basil orzo," "what's already in your fridge" — not "culinary solutions."
-- **Emoji:** Used warmly in community/marketing contexts (🍅 🌱 ♻️ ✨ — the tomato 🍅 is effectively a brand signature, echoing Sal). **Avoid emoji inside product UI chrome** (buttons, form labels, nav) — keep those clean; use the brand icon set instead.
+- **Emoji:** Used warmly in community/marketing contexts (🍅 🌱 ♻️ ✨ — the tomato 🍅 is effectively a brand signature, echoing Sally). **Avoid emoji inside product UI chrome** (buttons, form labels, nav) — keep those clean; use the brand icon set instead.
 - **Vibe:** Optimistic, sustainability-minded, friendly-not-cutesy. Talks about reducing food waste and saving time without lecturing.
 
 Examples: *"Love your food."* · *"Let's make every meal count!"* · *"Snap your fridge, get dinner — no waste, no last-minute store runs."*
@@ -39,12 +39,12 @@ Examples: *"Love your food."* · *"Let's make every meal count!"* · *"Snap your
 
 ## Visual foundations
 
-**Color.** Warm and saturated, anchored by **Cherry Red `#ed4c4c`** (the hero — logo, primary CTAs, Sal's body, one or two eye-draws per screen). **Peach `#faa09a`** and **Light Peach `#ffd0cd`** are supporting tones for depth, soft cards, and warm section backgrounds — never substitutes for cherry. **White does the heavy lifting as negative space** to keep the warm palette from feeling heavy. A warm off-white **Cream `#fff8f6`** is the app background. Neutrals are warm-leaning grays (`--ink-900…300`, `--line-200/100`) for text and hairlines. No blues/greens/purples as *brand* color — only as semantic success/warning/error utilities, used sparingly.
+**Color.** Warm and saturated, anchored by **Cherry Red `#ed4c4c`** (the hero — logo, primary CTAs, Sally's body, one or two eye-draws per screen). **Peach `#faa09a`** and **Light Peach `#ffd0cd`** are supporting tones for depth, soft cards, and warm section backgrounds — never substitutes for cherry. **White does the heavy lifting as negative space** to keep the warm palette from feeling heavy. A warm off-white **Cream `#fff8f6`** is the app background. Neutrals are warm-leaning grays (`--ink-900…300`, `--line-200/100`) for text and hairlines. No blues/greens/purples as *brand* color — only as semantic success/warning/error utilities, used sparingly.
 > **Accessibility:** Cherry on white is 3.66:1 — passes AA for large/bold text (18px+) and UI, **fails** for body text. Never set body copy <18px in cherry on white, or white on cherry below 18px. Pair cherry with dark neutral for body.
 
 **Type.** Two families. **Grandstander** (rounded, playful) for display/headlines, the wordmark, and short large statements — Bold, tracking −0.02em. **Figtree** for body, UI labels, captions, tables — readable everywhere. Rule of thumb: a sentence or anything <16px → Figtree; a few attention-grabbing words at large size → Grandstander.
 
-**Geometry & radius.** Soft and friendly, echoing Sal's rounded body and Grandstander's letterforms. Cards 16px radius; inputs 12px; buttons and chips fully pill (999px). Nothing sharp or angular.
+**Geometry & radius.** Soft and friendly, echoing Sally's rounded body and Grandstander's letterforms. Cards 16px radius; inputs 12px; buttons and chips fully pill (999px). Nothing sharp or angular.
 
 **Backgrounds.** Default white; warm sections in light-peach or soft peach. **Avoid large flat fields of full-saturation cherry** — it's an accent, not a backdrop. Brand photography is warm, bright, natural daylight — real food, hands, kitchens, fresh produce (tomatoes, leafy greens, berries); no heavy filters, no grain, no moody/cool grading.
 
@@ -65,10 +65,10 @@ Examples: *"Love your food."* · *"Let's make every meal count!"* · *"Snap your
 ## Iconography
 
 - **Brand icon set** (in `assets/icons/`, copied from the Brand Guidelines): `Chefshat`, `CookingTime`, `Like`, `Dislike`, `Refresh`, `Heart`. These are **filled, rounded, friendly** SVGs at 96×96, authored white-filled to sit inside colored (cherry) circles/buttons — the swipe-to-discover vocabulary of the Sally recipe app. Recolor via container background, not by editing the SVG.
-- **Style rule:** rounded and filled to match Sal and Grandstander. **Avoid sharp/angular or thin-line icon sets** — they clash with the brand's soft geometry.
+- **Style rule:** rounded and filled to match Sally and Grandstander. **Avoid sharp/angular or thin-line icon sets** — they clash with the brand's soft geometry.
 - **For UI needs beyond the brand set,** prefer a rounded, filled or soft-stroke library. *(Substitution flag: where a broader icon set is needed, [Lucide](https://lucide.dev) at higher stroke + rounded caps is the closest CDN match, but it's a line set — confirm with the team before standardizing, and prefer the brand SVGs wherever they exist.)*
 - **Emoji as icons:** only in marketing/community copy (🍅 especially); not in product chrome.
-- **Mascot:** Sal (`assets/logos/Sal.png`, `Sal.ico`) doubles as app icon, favicon, loading indicator, and empty-state anchor. Never recolor, rotate, stretch, or add effects.
+- **Mascot:** Sally (`assets/logos/Sal.png`, `Sal.ico`) doubles as app icon, favicon, loading indicator, and empty-state anchor. Never recolor, rotate, stretch, or add effects.
 
 ---
 
@@ -77,7 +77,7 @@ Examples: *"Love your food."* · *"Let's make every meal count!"* · *"Snap your
 **Root**
 - `styles.css` — the single entry point consumers link; `@import`s all tokens + fonts.
 - `tokens/` — `colors.css`, `typography.css`, `spacing.css` (radius/shadow/motion), `fonts.css` (@font-face), `base.css`.
-- `assets/` — `logos/` (HeySalad lockups black/white, Sal), `icons/` (brand SVG set), `fonts/` (Grandstander + Figtree TTFs), `images/` (brand photography).
+- `assets/` — `logos/` (HeySalad lockups black/white, Sally), `icons/` (brand SVG set), `fonts/` (Grandstander + Figtree TTFs), `images/` (brand photography).
 - `guidelines/` — foundation specimen cards (Colors, Type, Spacing, Brand) for the Design System tab.
 - `SKILL.md` — Agent-Skill-compatible entry for downloaded use.
 

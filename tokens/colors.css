@@ -4,7 +4,7 @@
 
 :root {
   /* ---- Brand primitives ---- */
-  --cherry-red: #ed4c4c;   /* primary brand color — Sal, logo, primary CTAs */
+  --cherry-red: #ed4c4c;   /* primary brand color — Sally, logo, primary CTAs */
   --peach: #faa09a;        /* secondary — hover, illustration fills */
   --light-peach: #ffd0cd;  /* tertiary — backgrounds, card fills */
   --white: #ffffff;
@@ -15,7 +15,7 @@
   --cherry-red-soft: #fbe4e4;    /* faint cherry wash — selected rows, focus halos */
 
   /* ---- Neutrals (warm-leaning grayscale for text & lines) ---- */
-  --ink-900: #1f1416;   /* near-black, warm — headings, Sal's swirl */
+  --ink-900: #1f1416;   /* near-black, warm — headings, Sally's swirl */
   --ink-700: #4a3f41;   /* primary body text */
   --ink-500: #7a6e70;   /* secondary text, captions */
   --ink-300: #b7adae;   /* disabled text, placeholders */
