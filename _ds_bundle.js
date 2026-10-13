@@ -1338,7 +1338,7 @@ function ShoppingListScreen({
     }
   }, /*#__PURE__*/React.createElement("img", {
     src: "../../assets/logos/Sal.png",
-    alt: "Sal",
+    alt: "Sally",
     style: {
       width: 88,
       height: 88,
@@ -1453,7 +1453,7 @@ function WelcomeScreen({
     }
   }, /*#__PURE__*/React.createElement("img", {
     src: "../../assets/logos/Sal.png",
-    alt: "Sal",
+    alt: "Sally",
     style: {
       width: 132,
       height: 132,

@@ -13,6 +13,6 @@ If the user invokes this skill without any other guidance, ask them what they wa
 - **Type:** Grandstander (rounded display/headlines, short & large); Figtree (body/UI, everything <16px or sentence-length).
 - **Geometry:** soft — pill buttons/chips (999px), 16px cards, 12px inputs. Warm soft shadows; cherry glow under primary CTAs.
 - **Voice:** direct, warm, playful, concrete; sentence case; "you"; 🍅 in marketing only, not product chrome.
-- **Mascot:** Sal, the tomato-heart (`assets/logos/Sal.png`). Never recolor/rotate/stretch.
+- **Mascot:** Sally, the tomato-heart (`assets/logos/Sal.png`). Never recolor/rotate/stretch.
 - **Assets:** logos in `assets/logos/`, brand icon SVGs in `assets/icons/`, fonts in `assets/fonts/`, photography in `assets/images/`.
 - **Components:** `styles.css` + `_ds_bundle.js`, then `window.HeySaladDesignSystem_7c87a6.{Button,Badge,Tag,Avatar,Input,Switch,Checkbox,Card}`.

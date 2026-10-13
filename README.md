@@ -13,7 +13,7 @@
 | `components/` | React primitives — `core/` (Button, Badge, Tag, Avatar), `forms/` (Input, Switch, Checkbox), `surfaces/` (Card). |
 | `ui_kits/sally/` | Full click-through recipe-app reference (welcome → discover → recipe detail → shopping list → profile). |
 | `guidelines/` | Brand specimen cards (colors, type, spacing, logo, mascot, icons). |
-| `assets/` | `logos/` (HeySalad lockups + Sal mascot), `icons/` (recipe SVGs), `fonts/` (Grandstander + Figtree TTFs), `images/` (brand photography). |
+| `assets/` | `logos/` (HeySalad lockups + Sally mascot), `icons/` (recipe SVGs), `fonts/` (Grandstander + Figtree TTFs), `images/` (brand photography). |
 | `DESIGN.md` | The full design guide — colors, type, voice, visual foundations, iconography. |
 | `SKILL.md` | Agent-Skill entry point (for Claude Code / Codex-style agents). |
 
@@ -32,7 +32,7 @@ import { Button } from "./components/core/Button.jsx";
 
 ## Brand in one breath
 
-- **Cherry Red `#ed4c4c`** is the hero (CTAs, logo, Sal) — an accent, never a flat background.
+- **Cherry Red `#ed4c4c`** is the hero (CTAs, logo, Sally) — an accent, never a flat background.
 - **Peach `#faa09a` / Light Peach `#ffd0cd`** warm supporting tones; **white & cream** do the negative-space heavy lifting.
 - **Grandstander** for rounded display headlines; **Figtree** for body/UI.
 - Soft geometry — pill buttons, 16px cards, warm shadows, a cherry glow under primary CTAs.
