@@ -1,10 +1,10 @@
 /* HeySalad typography tokens
-   Grandstander = display/headlines (rounded, playful, short & large).
-   Figtree = body/UI (readable everywhere). Rule: sentence-length or <16px → Figtree. */
+   App UI uses Figtree only (--font-body).
+   Grandstander (--font-display) is for ads, marketing, and website hero headlines. Never app UI. */
 
 :root {
-  --font-display: "Grandstander", system-ui, sans-serif;
-  --font-body: "Figtree", system-ui, sans-serif;
+  --font-display: "Grandstander", system-ui, sans-serif; /* marketing / website heroes only */
+  --font-body: "Figtree", system-ui, sans-serif;         /* app UI — the only app typeface */
 
   /* Weights */
   --weight-regular: 400;
@@ -13,9 +13,9 @@
   --weight-bold: 700;
 
   /* Type scale (web/product) */
-  --text-display: 56px;   /* Grandstander Bold — hero statements */
-  --text-h1: 36px;        /* Grandstander Bold */
-  --text-h2: 26px;        /* Grandstander Bold/SemiBold */
+  --text-display: 56px;   /* Grandstander Bold — marketing / website heroes only */
+  --text-h1: 36px;        /* Figtree Bold in app UI */
+  --text-h2: 26px;        /* Figtree Bold in app UI */
   --text-h3: 20px;        /* Figtree SemiBold */
   --text-body-lg: 18px;   /* Figtree */
   --text-base: 16px;      /* Figtree Regular — default body */

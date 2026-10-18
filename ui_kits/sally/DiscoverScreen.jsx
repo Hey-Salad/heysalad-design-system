@@ -29,7 +29,7 @@ function DiscoverScreen({ onOpen, onLike }) {
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
           <div>
             <p style={{ fontFamily: "var(--font-body)", fontSize: 13, color: "var(--text-muted)", margin: 0 }}>Tonight's pick</p>
-            <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 24, color: "var(--text-strong)", margin: 0 }}>Discover</h2>
+            <h2 style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: 24, color: "var(--text-strong)", margin: 0 }}>Discover</h2>
           </div>
           <BrandIcon name="chef" size={30} color="var(--brand)" />
         </div>
@@ -62,7 +62,7 @@ function DiscoverScreen({ onOpen, onLike }) {
             </div>
           </div>
           <div style={{ padding: "16px 18px" }}>
-            <h3 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 22, color: "var(--text-strong)", margin: "0 0 6px" }}>{recipe.title}</h3>
+            <h3 style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: 22, color: "var(--text-strong)", margin: "0 0 6px" }}>{recipe.title}</h3>
             <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--text-muted)", margin: "0 0 12px", lineHeight: 1.45 }}>{recipe.blurb}</p>
             <div style={{ display: "flex", gap: 6 }}>
               {recipe.tags.map((t) => <Badge key={t} tone="brand">{t}</Badge>)}

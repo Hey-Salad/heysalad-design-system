@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":3,"namespace":"HeySaladDesignSystem_7c87a6","components":[{"name":"Avatar","sourcePath":"components/core/Avatar.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Tag","sourcePath":"components/core/Tag.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Card","sourcePath":"components/surfaces/Card.jsx"}],"sourceHashes":{"components/core/Avatar.jsx":"6b1a9d956d76","components/core/Badge.jsx":"b56104547efa","components/core/Button.jsx":"cb3f82665039","components/core/Tag.jsx":"73346232155c","components/forms/Checkbox.jsx":"1ca2de410a24","components/forms/Input.jsx":"23a9b6d44b5e","components/forms/Switch.jsx":"08d16a346b38","components/surfaces/Card.jsx":"9a661dd30287","ui_kits/sally/App.jsx":"d8d41dff63c2","ui_kits/sally/DiscoverScreen.jsx":"9cb1217ce76c","ui_kits/sally/RecipeDetailScreen.jsx":"24e84acd0dfe","ui_kits/sally/ShoppingListScreen.jsx":"223b96905a04","ui_kits/sally/WelcomeScreen.jsx":"552ff4a76626","ui_kits/sally/data.js":"ad8e160018c7","ui_kits/sally/icons.jsx":"8636968a9f84"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":3,"namespace":"HeySaladDesignSystem_7c87a6","components":[{"name":"Avatar","sourcePath":"components/core/Avatar.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"Tag","sourcePath":"components/core/Tag.jsx"},{"name":"Checkbox","sourcePath":"components/forms/Checkbox.jsx"},{"name":"Input","sourcePath":"components/forms/Input.jsx"},{"name":"Switch","sourcePath":"components/forms/Switch.jsx"},{"name":"Card","sourcePath":"components/surfaces/Card.jsx"}],"sourceHashes":{"components/core/Avatar.jsx":"6b1a9d956d76","components/core/Badge.jsx":"b56104547efa","components/core/Button.jsx":"cb3f82665039","components/core/Tag.jsx":"73346232155c","components/forms/Checkbox.jsx":"1ca2de410a24","components/forms/Input.jsx":"23a9b6d44b5e","components/forms/Switch.jsx":"08d16a346b38","components/surfaces/Card.jsx":"9a661dd30287","ui_kits/sally/App.jsx":"4a0f691f5432","ui_kits/sally/DiscoverScreen.jsx":"df2228154a18","ui_kits/sally/RecipeDetailScreen.jsx":"41766e223495","ui_kits/sally/ShoppingListScreen.jsx":"05555f5b29a5","ui_kits/sally/WelcomeScreen.jsx":"ab69a7c05e3f","ui_kits/sally/data.js":"ad8e160018c7","ui_kits/sally/icons.jsx":"8636968a9f84"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -690,7 +690,7 @@ function ProfileScreen({
     size: 56
   }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 22,
       color: "var(--text-strong)",
@@ -857,7 +857,7 @@ function DiscoverScreen({
     }
   }, "Tonight's pick"), /*#__PURE__*/React.createElement("h2", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 24,
       color: "var(--text-strong)",
@@ -947,7 +947,7 @@ function DiscoverScreen({
     }
   }, /*#__PURE__*/React.createElement("h3", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 22,
       color: "var(--text-strong)",
@@ -1111,7 +1111,7 @@ function RecipeDetailScreen({
     }
   }, /*#__PURE__*/React.createElement("h1", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 28,
       color: "var(--text-strong)",
@@ -1312,7 +1312,7 @@ function ShoppingListScreen({
     }
   }, /*#__PURE__*/React.createElement("h2", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 24,
       color: "var(--text-strong)",
@@ -1334,11 +1334,12 @@ function ShoppingListScreen({
       alignItems: "center",
       justifyContent: "center",
       textAlign: "center",
-      padding: "0 24px"
+      padding: "0 24px",
+      background: "var(--white)"
     }
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../../assets/logos/Sal.png",
-    alt: "Sal",
+    src: "../../assets/logos/sally-symbol.png",
+    alt: "Sally",
     style: {
       width: 88,
       height: 88,
@@ -1347,7 +1348,7 @@ function ShoppingListScreen({
     }
   }), /*#__PURE__*/React.createElement("h3", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 20,
       color: "var(--text-strong)",
@@ -1439,7 +1440,7 @@ function WelcomeScreen({
       height: "100%",
       display: "flex",
       flexDirection: "column",
-      background: "linear-gradient(180deg, var(--light-peach) 0%, var(--cream) 60%)"
+      background: "var(--white)"
     }
   }, /*#__PURE__*/React.createElement("div", {
     style: {
@@ -1452,17 +1453,16 @@ function WelcomeScreen({
       textAlign: "center"
     }
   }, /*#__PURE__*/React.createElement("img", {
-    src: "../../assets/logos/Sal.png",
-    alt: "Sal",
+    src: "../../assets/logos/sally-symbol.png",
+    alt: "Sally",
     style: {
       width: 132,
       height: 132,
-      marginBottom: 28,
-      filter: "drop-shadow(var(--shadow-md))"
+      marginBottom: 28
     }
   }), /*#__PURE__*/React.createElement("h1", {
     style: {
-      fontFamily: "var(--font-display)",
+      fontFamily: "var(--font-body)",
       fontWeight: 700,
       fontSize: 33,
       lineHeight: 1.1,

@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "name": "HeySalad",
+    "generatedFrom": [
+      "tokens/colors.css",
+      "tokens/spacing.css",
+      "tokens/typography.css"
+    ],
+    "generator": "scripts/generate-tokens.mjs"
+  },
+  "color": {
+    "cherryRed": {
+      "css": "--cherry-red",
+      "value": "#ed4c4c"
+    },
+    "peach": {
+      "css": "--peach",
+      "value": "#faa09a"
+    },
+    "lightPeach": {
+      "css": "--light-peach",
+      "value": "#ffd0cd"
+    },
+    "white": {
+      "css": "--white",
+      "value": "#ffffff"
+    },
+    "cherryRedHover": {
+      "css": "--cherry-red-hover",
+      "value": "#d83f3f"
+    },
+    "cherryRedPress": {
+      "css": "--cherry-red-press",
+      "value": "#c23636"
+    },
+    "cherryRedSoft": {
+      "css": "--cherry-red-soft",
+      "value": "#fbe4e4"
+    },
+    "ink900": {
+      "css": "--ink-900",
+      "value": "#1f1416"
+    },
+    "ink700": {
+      "css": "--ink-700",
+      "value": "#4a3f41"
+    },
+    "ink500": {
+      "css": "--ink-500",
+      "value": "#7a6e70"
+    },
+    "ink300": {
+      "css": "--ink-300",
+      "value": "#b7adae"
+    },
+    "line200": {
+      "css": "--line-200",
+      "value": "#ece5e5"
+    },
+    "line100": {
+      "css": "--line-100",
+      "value": "#f6f1f1"
+    },
+    "cream": {
+      "css": "--cream",
+      "value": "#fff8f6"
+    },
+    "success": {
+      "css": "--success",
+      "value": "#3b9c6d",
+      "status": "pending Peter's decision"
+    },
+    "successSoft": {
+      "css": "--success-soft",
+      "value": "#e4f3ec",
+      "status": "pending Peter's decision"
+    },
+    "warning": {
+      "css": "--warning",
+      "value": "#e0922f"
+    },
+    "warningSoft": {
+      "css": "--warning-soft",
+      "value": "#fbeed9"
+    },
+    "error": {
+      "css": "--error",
+      "value": "#d83f3f"
+    },
+    "errorSoft": {
+      "css": "--error-soft",
+      "value": "#fbe4e4"
+    },
+    "brand": {
+      "css": "--brand",
+      "value": "#ed4c4c",
+      "aliasOf": "--cherry-red"
+    },
+    "brandHover": {
+      "css": "--brand-hover",
+      "value": "#d83f3f",
+      "aliasOf": "--cherry-red-hover"
+    },
+    "brandPress": {
+      "css": "--brand-press",
+      "value": "#c23636",
+      "aliasOf": "--cherry-red-press"
+    },
+    "bgBase": {
+      "css": "--bg-base",
+      "value": "#ffffff",
+      "aliasOf": "--white"
+    },
+    "bgWarm": {
+      "css": "--bg-warm",
+      "value": "#fff8f6",
+      "aliasOf": "--cream"
+    },
+    "surfaceCard": {
+      "css": "--surface-card",
+      "value": "#ffffff",
+      "aliasOf": "--white"
+    },
+    "surfaceWarm": {
+      "css": "--surface-warm",
+      "value": "#ffd0cd",
+      "aliasOf": "--light-peach"
+    },
+    "surfaceMuted": {
+      "css": "--surface-muted",
+      "value": "#f6f1f1",
+      "aliasOf": "--line-100"
+    },
+    "textStrong": {
+      "css": "--text-strong",
+      "value": "#1f1416",
+      "aliasOf": "--ink-900"
+    },
+    "textBody": {
+      "css": "--text-body",
+      "value": "#4a3f41",
+      "aliasOf": "--ink-700"
+    },
+    "textMuted": {
+      "css": "--text-muted",
+      "value": "#7a6e70",
+      "aliasOf": "--ink-500"
+    },
+    "textDisabled": {
+      "css": "--text-disabled",
+      "value": "#b7adae",
+      "aliasOf": "--ink-300"
+    },
+    "textOnBrand": {
+      "css": "--text-on-brand",
+      "value": "#ffffff",
+      "aliasOf": "--white"
+    },
+    "border": {
+      "css": "--border",
+      "value": "#ece5e5",
+      "aliasOf": "--line-200"
+    },
+    "borderStrong": {
+      "css": "--border-strong",
+      "value": "#b7adae",
+      "aliasOf": "--ink-300"
+    },
+    "focusRing": {
+      "css": "--focus-ring",
+      "value": "#ed4c4c",
+      "aliasOf": "--cherry-red"
+    }
+  },
+  "radius": {
+    "sm": {
+      "css": "--radius-sm",
+      "px": 8,
+      "note": "Existing scale step in tokens/spacing.css."
+    },
+    "md": {
+      "css": "--radius-md",
+      "px": 12,
+      "role": "inputs"
+    },
+    "lg": {
+      "css": "--radius-lg",
+      "px": 16,
+      "role": "cards"
+    },
+    "xl": {
+      "css": "--radius-xl",
+      "px": 24,
+      "note": "Existing scale step in tokens/spacing.css."
+    },
+    "pill": {
+      "css": "--radius-pill",
+      "px": 999,
+      "role": "buttons and chips"
+    }
+  },
+  "font": {
+    "ui": {
+      "family": "Figtree",
+      "css": "--font-body",
+      "stack": "\"Figtree\", system-ui, sans-serif",
+      "usage": "App UI. The only typeface in product interfaces."
+    },
+    "marketing": {
+      "family": "Grandstander",
+      "css": "--font-display",
+      "stack": "\"Grandstander\", system-ui, sans-serif",
+      "usage": "Ads, marketing, and website hero headlines. Never app UI."
+    },
+    "weight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "size": {
+      "display": {
+        "px": 56,
+        "usage": "Marketing and website heroes. Grandstander. Never app UI."
+      },
+      "h1": {
+        "px": 36
+      },
+      "h2": {
+        "px": 26
+      },
+      "h3": {
+        "px": 20
+      },
+      "bodyLg": {
+        "px": 18
+      },
+      "base": {
+        "px": 16
+      },
+      "sm": {
+        "px": 14
+      },
+      "xs": {
+        "px": 13
+      },
+      "button": {
+        "px": 16
+      }
+    },
+    "leading": {
+      "tight": 1.1,
+      "snug": 1.3,
+      "normal": 1.55
+    },
+    "tracking": {
+      "tight": {
+        "raw": "-0.02em",
+        "em": -0.02
+      },
+      "normal": {
+        "raw": "0",
+        "number": 0
+      },
+      "wide": {
+        "raw": "0.04em",
+        "em": 0.04
+      }
+    }
+  }
+}

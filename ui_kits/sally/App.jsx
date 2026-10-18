@@ -96,7 +96,7 @@ function ProfileScreen({ saved }) {
       <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 22 }}>
         <Avatar name="Mei Tan" size={56} />
         <div>
-          <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 22, color: "var(--text-strong)", margin: 0 }}>Mei Tan</h2>
+          <h2 style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: 22, color: "var(--text-strong)", margin: 0 }}>Mei Tan</h2>
           <p style={{ fontFamily: "var(--font-body)", fontSize: 14, color: "var(--text-muted)", margin: 0 }}>Home cook · London</p>
         </div>
       </div>
