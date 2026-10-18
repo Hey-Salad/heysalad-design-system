@@ -1,5 +1,6 @@
 /* HeySalad spacing, radius, shadow tokens
-   Rounded, friendly geometry echoes Sal & Grandstander letterforms. */
+   Rounded, friendly geometry echoes Sally.
+   Cards 16px (--radius-lg), inputs 12px (--radius-md), buttons and chips 999px. */
 
 :root {
   /* Spacing scale (4px base) */
@@ -17,8 +18,8 @@
 
   /* Corner radii — generous & soft */
   --radius-sm: 8px;
-  --radius-md: 12px;   /* default card/input */
-  --radius-lg: 16px;   /* large cards, sheets */
+  --radius-md: 12px;   /* inputs */
+  --radius-lg: 16px;   /* cards */
   --radius-xl: 24px;   /* hero cards, modals */
   --radius-pill: 999px; /* buttons, chips, avatars */
 

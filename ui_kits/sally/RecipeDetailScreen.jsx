@@ -16,7 +16,7 @@ function RecipeDetailScreen({ recipe, onBack, onAdd, saved, onToggleSave }) {
 
       {/* Scroll body */}
       <div style={{ flex: 1, overflowY: "auto", padding: "20px 22px 16px", marginTop: -22, background: "var(--white)", borderRadius: "var(--radius-xl) var(--radius-xl) 0 0", position: "relative" }}>
-        <h1 style={{ fontFamily: "var(--font-display)", fontWeight: 700, fontSize: 28, color: "var(--text-strong)", margin: "0 0 8px", lineHeight: 1.1 }}>{recipe.title}</h1>
+        <h1 style={{ fontFamily: "var(--font-body)", fontWeight: 700, fontSize: 28, color: "var(--text-strong)", margin: "0 0 8px", lineHeight: 1.1 }}>{recipe.title}</h1>
         <div style={{ display: "flex", gap: 6, marginBottom: 16, flexWrap: "wrap" }}>
           <Badge tone="solid"><BrandIcon name="time" size={12} color="white" />{recipe.minutes} min</Badge>
           <Badge tone="brand">{recipe.level}</Badge>
